@@ -1,11 +1,25 @@
-import './App.css';
+import React from "react";
+import CollegeNavbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import About from "./components/About";
+import Courses from "./components/Courses";
+import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <h1>Hello, React!</h1>
-      <p>Welcome to your app 🚀</p>
-    </div>
+    <>
+      <CollegeNavbar />
+      <HeroSection />
+      <About />
+      <Courses />
+      <Gallery />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
